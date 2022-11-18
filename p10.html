@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> Practical 10 </title>
+<style>
+.container{
+ padding:10px;
+ width:97%;
+ border: 2px solid black;
+ background-color: white;
+}
+</style>
+</head>
+<body style="color:black;background-color:orange;">
+<h1 style="text-align:center;font-family:gungsuh;color:white; padding:40px;background-color:darkred;"> 
+  XYZ News Magazine and Emails <hr style="height:5; background-color:white;"> </h1>
+<div class="container">
+<p style="font-size:25;"> 
+ <b>Subscribe to XYZ News Magazine and Emails</b>
+</p>
+
+Intrested in receiving daily small updates of all latest News? Wll, now you can. And best of all,
+it is free! Just fill out this form and submit by clicking the "Send it in!" button. We will put you
+on our mailing list and you will receive your first email in 3-5 days. 
+<br>
+<br>
+<hr>
+<br>
+Please fill the following boxes to help us send the emails and our news letter:<br>
+ <form action="index.html" method="post" onsubmit="alert('You have sucessfully subscribed XYZ News Magazine and Emails. You will receive your first email in 3-5 days.')">
+  
+ <label for="fn">First Name:</label>
+ <input type="text" name="fn" id="fn" required style="margin:1px;"><br>
+ <label for="ln">Last Name: </label>
+ <input type="text" name="ln" id="ln" required style="width:250px; margin:1px;"><br>
+ <label for="b">Business: </label>
+ <input type="text" name="b" id="b" required style="width:350px; margin:1px;"><br>
+We must have a correct e-mail address to send you the news letter:<br>
+ <label for="email">Email: </label>
+ <input type="email" name="email" id="email" required style="width:330px; style="margin:1px;"><br>
+How did you hear about XYZ News Magazine and Emails?<br>
+ <input type="radio" name="how" id="how1">
+ <label for="how">Here on the Web </label>
+ <input type="radio" name="how" id="how2">
+ <label for="how">In a magazine </label>
+ <input type="radio" name="how" id="how3">
+ <label for="how">Television</label>
+ <input type="radio" name="how" id="how4">
+ <label for="how">Other </label><br>
+Would you like to be on our regular mailing list?<br>
+ <input type="checkbox" name="reg" id="reg">
+ <label for="reg">Yes, we love junk emails </label><br>
+<hr>
+ <button type="reset">Reset</button>
+ <button type="submit">Send it in!</button>
+</form>
+</div>
+<hr><p style="text-align:right;font-size:13;"><em> 
+Created by Nabdeep Patel
+</em></p>
+
+</body>
+</html>
+ 
