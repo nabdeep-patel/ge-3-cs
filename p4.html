@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Practical 4 </title>
+<style>
+.container {
+  padding: 16px;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  rows:5;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.btn {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: black;
+  color: lightgreen;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px green;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: lightgreen;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px green;
+  cursor: pointer;
+  width: 100%;
+}
+</style>
+</head>
+<body style="text-align:left;font-size:25;font-family:lucida console;color:black;background-color:orange;">
+
+<marquee >
+ Want to develop web pages?  Learn HTML with Coding Family at an affordable cost of $20. Register Now... 
+</marquee>
+
+<h1 style="text-align:center;font-family:gungsuh;color:white; padding:40px;background-color:darkred;"> 
+  Coading Family<br>Learn HTML Today<hr style="height:5; background-color:white;"> 
+ <p style="text-align:justify; font-size:20;"> 
+ HTML is the basic and key language of developing any website. It is easy to learn and to work with. Join now at an affordable price of $20 only.
+ What are you waiting for..... Register Now. <br></p>
+</h1> 
+
+<form action="index.html" method="post" onsubmit="alert('You have successfully submitted the form !!!')">
+  <div class="container">
+    <h1 style= "text-align: center">Registration Form</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="email" name="email" id="email" required>
+
+    <label for="un"><b>User Name</b></label>
+    <input type="text" placeholder="username" name="un" id="un" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="password" name="psw" id="psw" required>
+
+    <label for="fav_language"><b>Favorite Coading Language<br></b></label>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br><br>
+
+    <label for="co"><b>Any Comments</b></label>
+    <textarea rows="6" name="co" id="co" placeholder="enter text.."></textarea>
+
+    <hr>
+    <p>
+   <input type="checkbox" id="terms" name="terms" value="terms" required>
+   I agree to your <a href="terms.txt" target="_blank">Terms & Privacy</a>.</p>
+
+   <button type="submit"class="btn"><b>Register</b></button>
+   <button type="reset" class="btn"><b>Clear All</b></button>
+</form>
+</div>
+</p>
+
+<hr><p style="text-align:right;font-size:13;"><em> 
+Created by: Nabdeep Patel
+</em></p>
+
+</body>
+</html>
+ 
